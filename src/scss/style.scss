@@ -43,5 +43,19 @@ body {
 
   .section {
     padding-block: 6em;
+
+    .top-header {
+      text-align: center;
+      margin-bottom: 5em;
+
+      h1 {
+        font-weight: 600;
+        color: var(--text-color-second);
+        margin-bottom: 10px;
+      }
+      span {
+        color: #999;
+      }
+    }
   }
 }
