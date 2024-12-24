@@ -29,18 +29,19 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 .wrapper {
-  padding-inline: 10vh;
+  padding-inline: 10vw;
 
   .home-box {
+    display: flex;
     height: 100vh;
     min-height: 700px;
   }
 
   .section {
     padding-block: 6em;
-    min-height: 700px;
   }
 }
