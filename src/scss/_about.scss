@@ -9,6 +9,12 @@
     display: flex;
     width: 50%;
   }
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-color-second);
+    margin-bottom: 15px;
+  }
 
   .card {
     position: relative;
@@ -22,16 +28,26 @@
     box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
     border-radius: 20px;
 
-    h3 {
-      font-size: 20px;
-      font-weight: 600;
-      color: var(--text-color-second);
-      margin-bottom: 15px;
-    }
     div {
       text-align: center;
       font-size: 15px;
       color: #777;
+    }
+  }
+  .list {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 65px 70px;
+    width: 100%;
+
+    h3 {
+      text-align: center;
+    }
+    .item {
+      display: flex;
+      font-size: 17px;
+      padding: 5px;
+      color: var(--text-color-second);
     }
   }
 }
